@@ -1,0 +1,36 @@
+{
+  "name": "teste-front-end",
+  "version": "1.0.0",
+  "description": "O teste consiste em desenvolver uma página estática e responsiva.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://digoshirota1@bitbucket.org/digoshirota1/teste-front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/digoshirota1/teste-front-end#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.2.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "owl.carousel": "^2.3.4",
+    "sass-loader": "^8.0.0",
+    "url-loader": "^2.1.0"
+  }
+}
